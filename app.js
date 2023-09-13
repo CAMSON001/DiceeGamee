@@ -58,21 +58,21 @@ function randomNumber2(){
         point11.style.opacity = "0"
         point33.style.opacity = "0"
     }
-    else if(number1===4){
+    else if(number2===4){
         point22.style.opacity = "0"
     }
-    else if(number1===1){
+    else if(number2===1){
         point11.style.opacity = "0"
         point33.style.opacity = "0"
         whiteDod22.style.display = "none"
        
     }
-    else if(number1===5){
+    else if(number2===5){
         whiteDod22.style.display = "none"
        
     }
 
-    else if(number1===3){
+    else if(number2===3){
         whiteDod11.style.display = "none"
         whiteDod22.style.display = "none"
         whiteDod33.style.display = "none"
@@ -80,7 +80,6 @@ function randomNumber2(){
     }
     
 }
-
 
 
 randomNumber1()
